@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ED242F21DD2F3F00001FFCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED242F11DD2F3F00001FFCD /* main.m */; };
+		2ED242F51DD2F3F00001FFCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED242F41DD2F3F00001FFCD /* AppDelegate.m */; };
+		2ED242F81DD2F3F00001FFCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED242F71DD2F3F00001FFCD /* ViewController.m */; };
+		2ED242FB1DD2F3F00001FFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED242F91DD2F3F00001FFCD /* Main.storyboard */; };
+		2ED242FE1DD2F3F00001FFCD /* BusinessPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ED242FC1DD2F3F00001FFCD /* BusinessPad.xcdatamodeld */; };
+		2ED243001DD2F3F00001FFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED242FF1DD2F3F00001FFCD /* Assets.xcassets */; };
+		2ED243031DD2F3F00001FFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED243011DD2F3F00001FFCD /* LaunchScreen.storyboard */; };
+		2ED2430E1DD2F3F00001FFCD /* BusinessPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2430D1DD2F3F00001FFCD /* BusinessPadTests.m */; };
+		2ED243191DD2F3F00001FFCD /* BusinessPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED243181DD2F3F00001FFCD /* BusinessPadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ED2430A1DD2F3F00001FFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED242E51DD2F3F00001FFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED242EC1DD2F3F00001FFCD;
+			remoteInfo = BusinessPad;
+		};
+		2ED243151DD2F3F00001FFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED242E51DD2F3F00001FFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED242EC1DD2F3F00001FFCD;
+			remoteInfo = BusinessPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ED242ED1DD2F3F00001FFCD /* BusinessPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED242F11DD2F3F00001FFCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ED242F31DD2F3F00001FFCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ED242F41DD2F3F00001FFCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ED242F61DD2F3F00001FFCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ED242F71DD2F3F00001FFCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ED242FA1DD2F3F00001FFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ED242FD1DD2F3F00001FFCD /* BusinessPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessPad.xcdatamodel; sourceTree = "<group>"; };
+		2ED242FF1DD2F3F00001FFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ED243021DD2F3F00001FFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ED243041DD2F3F00001FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED243091DD2F3F00001FFCD /* BusinessPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED2430D1DD2F3F00001FFCD /* BusinessPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessPadTests.m; sourceTree = "<group>"; };
+		2ED2430F1DD2F3F00001FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED243141DD2F3F00001FFCD /* BusinessPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED243181DD2F3F00001FFCD /* BusinessPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessPadUITests.m; sourceTree = "<group>"; };
+		2ED2431A1DD2F3F00001FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ED242EA1DD2F3F00001FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243061DD2F3F00001FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243111DD2F3F00001FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ED242E41DD2F3F00001FFCD = {
+			isa = PBXGroup;
+			children = (
+				2ED242EF1DD2F3F00001FFCD /* BusinessPad */,
+				2ED2430C1DD2F3F00001FFCD /* BusinessPadTests */,
+				2ED243171DD2F3F00001FFCD /* BusinessPadUITests */,
+				2ED242EE1DD2F3F00001FFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED242EE1DD2F3F00001FFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ED242ED1DD2F3F00001FFCD /* BusinessPad.app */,
+				2ED243091DD2F3F00001FFCD /* BusinessPadTests.xctest */,
+				2ED243141DD2F3F00001FFCD /* BusinessPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED242EF1DD2F3F00001FFCD /* BusinessPad */ = {
+			isa = PBXGroup;
+			children = (
+				2ED242F31DD2F3F00001FFCD /* AppDelegate.h */,
+				2ED242F41DD2F3F00001FFCD /* AppDelegate.m */,
+				2ED242F61DD2F3F00001FFCD /* ViewController.h */,
+				2ED242F71DD2F3F00001FFCD /* ViewController.m */,
+				2ED242F91DD2F3F00001FFCD /* Main.storyboard */,
+				2ED242FF1DD2F3F00001FFCD /* Assets.xcassets */,
+				2ED243011DD2F3F00001FFCD /* LaunchScreen.storyboard */,
+				2ED243041DD2F3F00001FFCD /* Info.plist */,
+				2ED242FC1DD2F3F00001FFCD /* BusinessPad.xcdatamodeld */,
+				2ED242F01DD2F3F00001FFCD /* Supporting Files */,
+			);
+			path = BusinessPad;
+			sourceTree = "<group>";
+		};
+		2ED242F01DD2F3F00001FFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED242F11DD2F3F00001FFCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ED2430C1DD2F3F00001FFCD /* BusinessPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED2430D1DD2F3F00001FFCD /* BusinessPadTests.m */,
+				2ED2430F1DD2F3F00001FFCD /* Info.plist */,
+			);
+			path = BusinessPadTests;
+			sourceTree = "<group>";
+		};
+		2ED243171DD2F3F00001FFCD /* BusinessPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED243181DD2F3F00001FFCD /* BusinessPadUITests.m */,
+				2ED2431A1DD2F3F00001FFCD /* Info.plist */,
+			);
+			path = BusinessPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ED242EC1DD2F3F00001FFCD /* BusinessPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED2431D1DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPad" */;
+			buildPhases = (
+				2ED242E91DD2F3F00001FFCD /* Sources */,
+				2ED242EA1DD2F3F00001FFCD /* Frameworks */,
+				2ED242EB1DD2F3F00001FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessPad;
+			productName = BusinessPad;
+			productReference = 2ED242ED1DD2F3F00001FFCD /* BusinessPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ED243081DD2F3F00001FFCD /* BusinessPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED243201DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPadTests" */;
+			buildPhases = (
+				2ED243051DD2F3F00001FFCD /* Sources */,
+				2ED243061DD2F3F00001FFCD /* Frameworks */,
+				2ED243071DD2F3F00001FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED2430B1DD2F3F00001FFCD /* PBXTargetDependency */,
+			);
+			name = BusinessPadTests;
+			productName = BusinessPadTests;
+			productReference = 2ED243091DD2F3F00001FFCD /* BusinessPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ED243131DD2F3F00001FFCD /* BusinessPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED243231DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPadUITests" */;
+			buildPhases = (
+				2ED243101DD2F3F00001FFCD /* Sources */,
+				2ED243111DD2F3F00001FFCD /* Frameworks */,
+				2ED243121DD2F3F00001FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED243161DD2F3F00001FFCD /* PBXTargetDependency */,
+			);
+			name = BusinessPadUITests;
+			productName = BusinessPadUITests;
+			productReference = 2ED243141DD2F3F00001FFCD /* BusinessPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ED242E51DD2F3F00001FFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Apple1;
+				TargetAttributes = {
+					2ED242EC1DD2F3F00001FFCD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2ED243081DD2F3F00001FFCD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ED242EC1DD2F3F00001FFCD;
+					};
+					2ED243131DD2F3F00001FFCD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ED242EC1DD2F3F00001FFCD;
+					};
+				};
+			};
+			buildConfigurationList = 2ED242E81DD2F3F00001FFCD /* Build configuration list for PBXProject "BusinessPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ED242E41DD2F3F00001FFCD;
+			productRefGroup = 2ED242EE1DD2F3F00001FFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ED242EC1DD2F3F00001FFCD /* BusinessPad */,
+				2ED243081DD2F3F00001FFCD /* BusinessPadTests */,
+				2ED243131DD2F3F00001FFCD /* BusinessPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED242EB1DD2F3F00001FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED243031DD2F3F00001FFCD /* LaunchScreen.storyboard in Resources */,
+				2ED243001DD2F3F00001FFCD /* Assets.xcassets in Resources */,
+				2ED242FB1DD2F3F00001FFCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243071DD2F3F00001FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243121DD2F3F00001FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED242E91DD2F3F00001FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED242F81DD2F3F00001FFCD /* ViewController.m in Sources */,
+				2ED242FE1DD2F3F00001FFCD /* BusinessPad.xcdatamodeld in Sources */,
+				2ED242F51DD2F3F00001FFCD /* AppDelegate.m in Sources */,
+				2ED242F21DD2F3F00001FFCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243051DD2F3F00001FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED2430E1DD2F3F00001FFCD /* BusinessPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED243101DD2F3F00001FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED243191DD2F3F00001FFCD /* BusinessPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ED2430B1DD2F3F00001FFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED242EC1DD2F3F00001FFCD /* BusinessPad */;
+			targetProxy = 2ED2430A1DD2F3F00001FFCD /* PBXContainerItemProxy */;
+		};
+		2ED243161DD2F3F00001FFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED242EC1DD2F3F00001FFCD /* BusinessPad */;
+			targetProxy = 2ED243151DD2F3F00001FFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ED242F91DD2F3F00001FFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED242FA1DD2F3F00001FFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ED243011DD2F3F00001FFCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED243021DD2F3F00001FFCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ED2431B1DD2F3F00001FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ED2431C1DD2F3F00001FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED2431E1DD2F3F00001FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusinessPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ED2431F1DD2F3F00001FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusinessPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ED243211DD2F3F00001FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusinessPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessPad.app/BusinessPad";
+			};
+			name = Debug;
+		};
+		2ED243221DD2F3F00001FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusinessPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessPad.app/BusinessPad";
+			};
+			name = Release;
+		};
+		2ED243241DD2F3F00001FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BusinessPad;
+			};
+			name = Debug;
+		};
+		2ED243251DD2F3F00001FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apple1.BusinessPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BusinessPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED242E81DD2F3F00001FFCD /* Build configuration list for PBXProject "BusinessPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED2431B1DD2F3F00001FFCD /* Debug */,
+				2ED2431C1DD2F3F00001FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED2431D1DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED2431E1DD2F3F00001FFCD /* Debug */,
+				2ED2431F1DD2F3F00001FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ED243201DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED243211DD2F3F00001FFCD /* Debug */,
+				2ED243221DD2F3F00001FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ED243231DD2F3F00001FFCD /* Build configuration list for PBXNativeTarget "BusinessPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED243241DD2F3F00001FFCD /* Debug */,
+				2ED243251DD2F3F00001FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2ED242FC1DD2F3F00001FFCD /* BusinessPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2ED242FD1DD2F3F00001FFCD /* BusinessPad.xcdatamodel */,
+			);
+			currentVersion = 2ED242FD1DD2F3F00001FFCD /* BusinessPad.xcdatamodel */;
+			path = BusinessPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2ED242E51DD2F3F00001FFCD /* Project object */;
+}
